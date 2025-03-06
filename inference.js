@@ -1,4 +1,4 @@
-const ort = require('onnxruntime-node');
+const ort = require('onnxruntime-node'); // or: onnxruntime-web
 const { createCanvas, loadImage } = require('canvas');
 const { Tensor } = ort;
 

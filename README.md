@@ -1,3 +1,14 @@
+## audio_classifier
+
+The algorithm works as follows:
+
+- Go through audio data as wav-file in chunks of 16k
+- For each chunk calculate the mel spectogram
+- Classify the mel spectogram with a vision transformer
+
+The main challenge here was to get the same mel spectogram in Python and Java Script so that the model works
+on both platforms.
+
 ## Models
 
 | Model         | accuracy | Model size |
