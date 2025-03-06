@@ -1,0 +1,6 @@
+/processed
+/*.pt
+/*.png
+/*.onnx
+/*.wav
+__pycache__

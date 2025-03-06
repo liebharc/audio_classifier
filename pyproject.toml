@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "audio-classifier"
+version = "0.1.0"
+description = ""
+authors = ["Christian Liebhardt <christian.liebhardt@arcor.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tensorflow = "^2.18.0"
+kagglehub = "^0.3.10"
+matplotlib = "^3.10.1"
+librosa = "^0.10.2.post1"
+tensorflowjs = "^4.22.0"
+onnx-tf = "^1.10.0"
+torch = "^2.5.1"
+onnx = "^1.17.0"
+fastai = "^2.7.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
